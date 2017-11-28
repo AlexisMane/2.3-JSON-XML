@@ -1,4 +1,4 @@
-# coding=Windows_1251
+п»ї# coding=Windows_1251
 
 import xml.etree.ElementTree as ET
 from collections import Counter
@@ -30,7 +30,7 @@ def top_ten(filename):
 print('10 most common words:\n newsafr.xml:', top_ten('newsafr.xml'),'\n newscy.xml:', top_ten('newscy.xml'),  \
      '\n newsfr.xml:', top_ten('newsfr.xml'),'\n  newsit.xml:', top_ten('newsit.xml'))
 
-# Во всех файлах, кроме newsit, я получаю ошибку not well-formed (invalid token). Понимаю, что проблема в том,
-# что парсер не определяет кодировку, но как её указать, ума не приложу. ET.parse не принимает аргумент encoding.
+# Р’Рѕ РІСЃРµС… С„Р°Р№Р»Р°С…, РєСЂРѕРјРµ newsit, СЏ РїРѕР»СѓС‡Р°СЋ РѕС€РёР±РєСѓ not well-formed (invalid token). РџРѕРЅРёРјР°СЋ, С‡С‚Рѕ РїСЂРѕР±Р»РµРјР° РІ С‚РѕРј,
+# С‡С‚Рѕ РїР°СЂСЃРµСЂ РЅРµ РѕРїСЂРµРґРµР»СЏРµС‚ РєРѕРґРёСЂРѕРІРєСѓ, РЅРѕ РєР°Рє РµС‘ СѓРєР°Р·Р°С‚СЊ, СѓРјР° РЅРµ РїСЂРёР»РѕР¶Сѓ. ET.parse РЅРµ РїСЂРёРЅРёРјР°РµС‚ Р°СЂРіСѓРјРµРЅС‚ encoding.
 #
-# Что я делаю не так?
+# Р§С‚Рѕ СЏ РґРµР»Р°СЋ РЅРµ С‚Р°Рє?
