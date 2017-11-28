@@ -1,6 +1,4 @@
-﻿# coding=Windows_1251
-
-import xml.etree.ElementTree as ET
+﻿import xml.etree.ElementTree as ET
 from collections import Counter
 
 def ten_most_common(lst):
